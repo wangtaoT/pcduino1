@@ -7,6 +7,7 @@
 -集成讯飞语音 可通过语音进行控制  
 
 #APP图片
+APP主要图片展示
 ##LOGO  
 
 ![Renderings](https://github.com/wangtaoT/pcduino/blob/master/APP-Image/3.png)  
