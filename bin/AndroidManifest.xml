@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dhyedu.smarthome"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+    
+    <uses-permission android:name="android.permission.INTERNET" /> 
+    
+    <!--获取手机录音机使用权限，听写、识别、语义理解需要用到此权限  --> 
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/> 
+    <!--读取网络信息状态  --> 
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/> 
+    <!--获取当前wifi状态  --> 
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/> 
+    <!--允许程序改变网络连接状态  --> 
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/> 
+    <!--读取手机信息权限  --> 
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <!--外存储写入权限，构建语法需要用到此权限  --> 
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/> 
+    <!--允许应用程序完全使用网络-->    
+    <uses-permission android:name="android.permission.INTERNET"/>
+    
+    <application
+        android:icon="@drawable/main"    
+        android:label="@string/app_name">
+        <activity
+            android:name="com.dhyedu.smarthome.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.dhyedu.smarthome.Yuyin"></activity>
+        <activity android:name="com.dhyedu.smarthome.Cam"></activity>
+    </application>
+	<uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+	<uses-permission android:name="android.permission.WAKE_LOCK"/>
+	<uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+	<uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" ></uses-permission>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" ></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" ></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" ></uses-permission>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" ></uses-permission>
+</manifest>

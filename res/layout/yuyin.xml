@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="#696969"
+    android:gravity="bottom" >
+
+    <ImageButton
+        android:id="@+id/imageButtonY"
+        android:layout_width="@dimen/y80"
+        android:layout_height="@dimen/x85"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="61dp"
+        android:background="#00000000"
+        android:scaleType="fitXY"
+        android:src="@drawable/voice" />
+
+    <TextView
+        android:id="@+id/textview1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="125dp"
+        android:textSize="20sp"
+        android:text="按下后 开始说话..." />
+
+    <ImageButton
+        android:id="@+id/imageButtonE"
+        android:layout_width="@dimen/y27"
+        android:layout_height="@dimen/x30"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="45dp"
+        android:layout_marginRight="18dp"
+        android:background="#00000000"
+        android:scaleType="fitXY"
+        android:src="@drawable/del"/>"
+
+</RelativeLayout>

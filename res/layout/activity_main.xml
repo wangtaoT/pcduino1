@@ -1,0 +1,112 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#696969"
+    android:gravity="top" >
+
+    <Button
+        android:id="@+id/ButtonR"
+        android:layout_width="@dimen/y62"
+        android:layout_height="@dimen/x70"
+        android:layout_alignTop="@+id/ButtonL"
+        android:layout_marginLeft="58dp"
+        android:layout_toRightOf="@+id/ButtonF"
+        android:background="@drawable/right"
+        android:scaleType="fitXY"/>
+
+    <Button
+        android:id="@+id/ButtonL"
+        android:layout_width="@dimen/y62"
+        android:layout_height="@dimen/x70"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="104dp"
+        android:layout_marginRight="59dp"
+        android:layout_toLeftOf="@+id/ButtonB"
+        android:background="@drawable/left"
+        android:scaleType="fitXY"/>
+
+    <Button
+        android:id="@+id/ButtonB"
+        android:layout_width="@dimen/y62"
+        android:layout_height="@dimen/x70"
+        android:layout_below="@+id/ButtonR"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/down"
+        android:scaleType="fitXY"/>
+
+    <ImageButton
+        android:id="@+id/iButtonY"
+        android:layout_width="@dimen/y55"
+        android:layout_height="@dimen/x60"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/ButtonB"
+        android:background="#00000000"
+        android:scaleType="fitXY"
+        android:src="@drawable/yuyin" />
+
+    <ImageButton
+        android:id="@+id/iButtonC"
+        android:layout_width="@dimen/y55"
+        android:layout_height="@dimen/x60"
+        android:layout_above="@+id/ButtonR"
+        android:layout_alignParentRight="true"
+        android:background="#00000000"
+        android:scaleType="fitXY"
+        android:src="@drawable/ca" />
+
+    <Button
+        android:id="@+id/ButtonF"
+        android:layout_width="@dimen/y62"
+        android:layout_height="@dimen/x70"
+        android:layout_alignBottom="@+id/iButtonC"
+        android:layout_alignLeft="@+id/ButtonB"
+        android:background="@drawable/up"
+        android:scaleType="fitXY" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" >
+
+        <Button
+            android:id="@+id/startB"
+            android:layout_width="120dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="18dp"
+            android:background="@drawable/button"
+            android:scaleType="fitXY"
+            android:text="开始连接" />
+
+        <TextView
+            android:id="@+id/ipview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="IP:端口 "
+            android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/iptext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="请输入ip:端口" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/RecvText"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_weight="1"
+                android:textSize="15sp" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>

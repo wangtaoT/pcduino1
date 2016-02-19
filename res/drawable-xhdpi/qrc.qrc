@@ -1,0 +1,29 @@
+<RCC>
+    <qresource prefix="/">
+        <file>yushi.png</file>
+        <file>woshi.png</file>
+        <file>shufang.png</file>
+        <file>Up.jpg</file>
+        <file>Right.jpg</file>
+        <file>photography.png</file>
+        <file>light_on.png</file>
+        <file>light_off.png</file>
+        <file>Left.jpg</file>
+        <file>kongtiao.png</file>
+        <file>keting.png</file>
+        <file>Down.jpg</file>
+        <file>chufang.png</file>
+        <file>back.png</file>
+        <file>binxiang.png</file>
+        <file>1.png</file>
+        <file>11.png</file>
+        <file>15.png</file>
+        <file>17.png</file>
+        <file>25.png</file>
+        <file>38.png</file>
+        <file>39.png</file>
+        <file>41.png</file>
+        <file>50.png</file>
+        <file>60.png</file>
+    </qresource>
+</RCC>
