@@ -1,4 +1,4 @@
-# pcduino android控制端
+pcduino android控制端
 ====================
 > -使用java语言编写  
 -pcduino的android遥控端  
