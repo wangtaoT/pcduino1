@@ -6,16 +6,16 @@ pcduino android控制端
 -通过socket通讯进行数据传输  
 -集成讯飞语音 可通过语音进行控制  
 
-#APP图片
+# APP图片
 APP主要图片展示
-##LOGO  
+## LOGO  
 
 ![Renderings](https://github.com/wangtaoT/pcduino/blob/master/APP-Image/3.png)  
 
-##主界面
+## 主界面
 
 <img src="https://github.com/wangtaoT/pcduino/blob/master/APP-Image/1.png" width="400" />  
 
-##语音控制界面  
+## 语音控制界面  
 
 <img src="https://github.com/wangtaoT/pcduino/blob/master/APP-Image/2.png" width="300" />  
