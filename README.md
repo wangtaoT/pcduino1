@@ -10,12 +10,12 @@ pcduino android控制端
 APP主要图片展示
 ## LOGO  
 
-![Renderings](https://github.com/wangtaoT/pcduino1/blob/master/APP-Image/3.png)  
+![Renderings](https://github.com/wangtaoT/pcduino1/blob/main/APP-Image/3.png)  
 
 ## 主界面
 
-<img src="https://github.com/wangtaoT/pcduino1/blob/master/APP-Image/1.png" width="400" />  
+<img src="https://github.com/wangtaoT/pcduino1/blob/main/APP-Image/1.png" width="400" />  
 
 ## 语音控制界面  
 
-<img src="https://github.com/wangtaoT/pcduino1/blob/master/APP-Image/2.png" width="300" />  
+<img src="https://github.com/wangtaoT/pcduino1/blob/main/APP-Image/2.png" width="300" />  
